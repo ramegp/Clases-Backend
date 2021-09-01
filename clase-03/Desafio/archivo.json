@@ -1,0 +1,21 @@
+{
+    "array": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "boolean": true,
+    "color": "#29AEC9",
+    "null": null,
+    "number": 1234,
+    "users": [{
+        "name": "b",
+        "apellido": "d"
+      },{
+        "name": "b",
+        "apellido": "d"
+      }] ,
+    "string": "Hello World!",
+    "string_2": "Awebanalysis.com JSON Editor and Parser Online"
+}

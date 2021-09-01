@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Titulo 1",
+		"price": 54,
+		"thumbnail": "Direccion",
+		"id": 1
+	},
+	{
+		"title": "Titulo 2",
+		"price": 54,
+		"thumbnail": "Direccion",
+		"id": 2
+	},
+	{
+		"title": "Cartuchera",
+		"price": 100,
+		"thumbnail": "url",
+		"id": 3
+	},
+	{
+		"title": "Cartuchera",
+		"price": 100,
+		"thumbnail": "url",
+		"id": 4
+	}
+]

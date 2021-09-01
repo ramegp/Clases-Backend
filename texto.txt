@@ -1,0 +1,44 @@
+acces_token = TEST-2901889897860679-012813-bee11b06c1712f6832de96823fd63c01-9984163
+public_key = TEST-380a0216-2e91-4e9e-a048-5daffe57a007
+
+
+
+PRoduccion ecomerko
+public_key = APP_USR-82e13f73-151c-4639-9bd7-b745c92f37be
+token = APP_USR-2901889897860679-012813-0ba0bc31a266858229f5098c4ef55878-9984163;
+
+
+-typescript-
+npm init 
+npm install -D typescript
+tsc --init
+npx tsc  // tsc *.ts --out index.js --watch  (Compila todos los archivos .ts en uno solo js)
+node archivo.js
+- fin -
+
+npm install nodemon (de forma local, solo en el proyecto)
+nodemon -x "clear & node" index.js
+nodemon --quiet index.js
+----------
+moment (manejo de fechas)
+npm i moment (de forma local)
+------------
+
+-transpilador(si usamos typescript no hace falta instalar babel)-
+npm i --save-dev @babel/cli
+npm i --save-dev @babel/core @babel/node
+npm i --save-dev @babel/preset-env
+agregar en scripts 
+"dev":"babel-node index.js",
+    "start":"nodemon --exec npm run dev"
+
+hacer un archivo .babelrc
+{
+  "presets":[
+    "@babel/preset-env"
+  ]
+}
+-----------------------------
+-express-
+npm i express // si estoy en type hay que instalar @type/express 
+

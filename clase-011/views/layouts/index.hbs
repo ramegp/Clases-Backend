@@ -1,0 +1,24 @@
+<h2>{{saludo}}</h2>
+<p><b>{{email}}</b></p>
+{{> lovedChamps}}
+<br>
+{{> hatedChamps}}
+<ul>
+    {{#each productos}}
+    <li>{{this.name}}</li>
+    {{/each}}
+</ul>
+
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+    </tr>
+    {{#each productos}}
+    <tr>
+        <th>{{this.name}}</th>
+        <th>{{this.precio}}</th>
+    </tr>
+    {{/each}}
+
+</table>

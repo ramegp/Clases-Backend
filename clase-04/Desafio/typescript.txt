@@ -1,0 +1,9 @@
+npm init
+npm install -D typescript
+tsc --init
+lib:["es2015","DOM"]
+
+para compilar npx tsc 
+ejecutamos con el comando
+node archivo.js
+

@@ -42,3 +42,6 @@ hacer un archivo .babelrc
 -express-
 npm i express // si estoy en type hay que instalar @type/express 
 
+////
+webpack
+npx webpack archivos -o archivo.salida --mode="production"

@@ -1,0 +1,1 @@
+setTimeout(()=>{console.log("index 3");},1000)
